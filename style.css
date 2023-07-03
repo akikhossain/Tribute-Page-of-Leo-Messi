@@ -25,6 +25,7 @@ nav a:link {
   gap: 250px;
   background-color: #4dabf7;
   margin-bottom: 80px;
+  width: auto;
 }
 
 .head {
@@ -69,7 +70,6 @@ a:active {
 .para {
   margin-left: 90px;
 
-  display: inline;
   width: 700px;
   font-size: 20px;
   color: #868e96;
@@ -89,4 +89,5 @@ footer {
   padding: 16px 18px;
   width: auto;
   font-size: 16px;
+  margin-bottom: 0;
 }
