@@ -5,39 +5,88 @@
 }
 
 body {
+  font-family: "Josefin Sans", sans-serif;
 }
 nav a:link {
   margin-right: 30px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .header {
-  margin-bottom: 20px;
   background-color: antiquewhite;
-  padding: 12px 16px;
+  padding: 16px 18px;
   width: auto;
+  font-size: 20px;
 }
 
 .main-header {
   display: flex;
-  gap: 1000px;
-  background-color: black;
+  gap: 250px;
+  background-color: #4dabf7;
+  margin-bottom: 80px;
 }
 
 .head {
-  align-items: center;
   color: white;
+  text-align: center;
+  width: 1000px;
+  align-self: center;
+  font-size: 60px;
+  font-family: "Caveat", cursive;
+  margin-left: 90px;
+}
+.greatest {
+  font-size: 35px;
+  color: #e9ecef;
 }
 
 a:link,
 a:visited {
   color: #065c69;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover,
 a:active {
-  color: orangered;
+  color: rgb(78, 23, 3);
   font-weight: bold;
-  text-decoration: underline rgb(29, 27, 26);
+  text-decoration: underline rgb(153, 146, 142);
+  transition: 0.6s;
+}
+
+.biography {
+  display: flex;
+  gap: 500px;
+  margin-bottom: 60px;
+}
+.second-header {
+  margin-bottom: 35px;
+  margin-left: 80px;
+  color: #343a40;
+}
+.para {
+  margin-left: 90px;
+
+  display: inline;
+  width: 700px;
+  font-size: 20px;
+  color: #868e96;
+  text-align: justify;
+}
+
+h3 {
+  width: 800px;
+  color: #339af0;
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  margin-right: 50px;
+}
+
+footer {
+  background-color: antiquewhite;
+  padding: 16px 18px;
+  width: auto;
+  font-size: 16px;
 }
